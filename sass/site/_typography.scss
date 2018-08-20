@@ -1,0 +1,87 @@
+::selection {
+    color:white;
+    background:black;
+}
+
+body {
+	font-family: "ltc-bodoni-175", "serif";
+	font-size: 20px;
+	line-height: 1.6;
+	letter-spacing: 0.009em;
+	
+	.actionFont{
+		font-family: monospace;
+		font-size: $font-size-s;
+		line-height: 1;
+		letter-spacing: 0.05em;
+	}
+	
+	@media #{$tablet} {
+		font-size: 18px;			
+	}
+	
+	@media #{$mobile} {
+		font-size: 16px;			
+	}
+	
+	a {
+		color: inherit;
+		text-decoration:none;
+		color:$color-cta;
+		
+		span{
+            &:not(emoji){
+			 border-bottom: 2px solid;
+			 border-color: inherit;
+            }
+		}
+		
+		&.cta{
+			color: $color-cta;
+		}
+	}
+	
+	p, h1, h2, h3, h4, h5, h6{
+		margin-bottom: 1em;
+	}
+	
+	h1{
+		font-size: $font-size-l;
+		margin-bottom: 1em;
+		color: $color-cta;
+	}
+	p{
+		font-size: $font-size-l;
+	}
+	
+	.emoji{
+		border: 0;
+		font-size: 1.3em;
+		
+		&.rock{
+			display: inline-block;
+            vertical-align: middle;
+			margin-left: 4px;
+		}		
+        
+        &.mail{
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 9px;
+			margin-bottom: -3px
+        }
+		&.alien{
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 9px;
+			    margin-bottom: -2px;
+        }
+		&.phone{
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 7px;
+        }
+	}
+
+
+}

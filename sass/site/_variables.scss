@@ -1,0 +1,39 @@
+/* susy */
+$susy: (
+  columns: 24, 
+  container: 1280px,
+  gutters: 0,
+  global-box-sizing: border-box,
+  debug: (image: hide)
+);
+
+/* responsive */
+$desk-small: "(max-width: 940px)";
+$tablet: "(max-width: 720px)";
+$mobile: "(max-width: 480px)";
+
+/* center shit */
+@mixin centerer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* transitions */
+$norm-speed:400ms;
+$slow-speed:1600ms;
+
+/* fonts-sizes */
+$font-size-s: 0.9em;
+$font-size-l: 1.4em;
+
+/* fonts-weights */
+$medium:500;
+$semi-bold:600;
+$black:800;
+
+/* colors */
+$color-main: blue;
+$color-cta : #86E98F;
+$color-grey:#F2F2F2;

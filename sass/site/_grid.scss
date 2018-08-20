@@ -1,0 +1,29 @@
+html, body{
+	height: 100%;
+}
+body{
+	
+	#mainWrapper{
+		 
+		@include container;
+		height: 100%;
+		position: relative;
+		
+		main{
+			$paddingSide : span(2 of 24);
+			width:span(18 of 24);
+			padding:4em $paddingSide;
+
+
+			@include clearfix();
+			
+			@media #{$desk-small} {
+				width:span(22 of 24);
+			}
+
+			
+		}
+		
+	}
+	
+}
