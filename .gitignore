@@ -1,6 +1,6 @@
 # Source #
 dist/
-node-modules/
+node_modules/
 
 
 # Compiled source #
