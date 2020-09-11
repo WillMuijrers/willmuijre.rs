@@ -34,11 +34,7 @@
 					<a href="https://github.com/willmuijrers" target="_blank" class="cta">
 				  <span class="emoji alien">👽</span> <span class="line">github.com/willmuijrers</span>
 			  </a>
-					<!--
-				<a href="tel:0031651694379" class="cta">
-				  <span class="emoji phone">📞</span> <span class="line">+31 (0)6 51 69 43 79</span>
-			  </a> 
--->
+				
 				</div>
 			</footer>
 		</main>
